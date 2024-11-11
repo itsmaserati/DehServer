@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Gilroy-Light;
+	src: url(assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+	font-family: Gilroy-Regular;
+	src: url(assets/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+	font-family: Gilroy-Medium;
+	src: url(assets/fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+	font-family: Gilroy-SemiBold;
+	src: url(assets/fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Gilroy-Bold;
+	src: url(assets/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+	font-family: Hemi;
+	src: url(assets/fonts/Hemi.otf);
+}
+
+@font-face {
+	font-family: MonumentRegular;
+	src: url(assets/fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+	font-family: MonumentUltraBold;
+	src: url(assets/fonts/MonumentExtended-Ultrabold.otf);
+}
+
+@font-face {
+	font-family: Agency;
+	src: url(assets/fonts/AGENCYB.woff);
+}
+
+input[type='range'] {
+	-webkit-appearance: none;
+	appearance: none;
+	background: rgba(255, 255, 255, 0.1);
+	width: 100%;
+	border-radius: 3px;
+	vertical-align: bottom;
+	margin: 0;
+	height: 2px;
+	cursor: pointer;
+	transition: all ease-in 0.25s;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	border: 0;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	z-index: 100;
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+input[type='range']::-moz-range-thumb {
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0;
+	border: 0;
+	position: relative;
+	width: 4px;
+	height: 15px;
+	background-color: rgb(255, 79, 79);
+}
